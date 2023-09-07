@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": false,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "React.Fragment",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    // "skipLibCheck": true,
+    // "noEmit": true,
+
+    "baseUrl": ".",
+    "allowJs": true,
+    "noImplicitAny": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "env.d.ts",
+    "types/*.d.ts",
+    "vite.config.ts",
+    "src/components/PieChart/index.jsx",
+    "src/components/PieChart/index.jsx",
+    "src/views/home/components/cesuim/useZhamen.js"
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

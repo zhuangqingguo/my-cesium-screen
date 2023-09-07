@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>关闭</title>
+    <defs>
+        <filter x="-4.0%" y="-3.3%" width="108.0%" height="106.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.304906031 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="7.91033905e-13%" y1="68.8796152%" x2="100%" y2="8.26233021e-13%" id="linearGradient-2">
+            <stop stop-color="#87F0FF" offset="0%"></stop>
+            <stop stop-color="#0B65D1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-863.000000, -108.000000)">
+            <g id="编组-18备份-6" filter="url(#filter-1)" transform="translate(594.000000, 116.000000)">
+                <g id="关闭" transform="translate(278.000000, 1.000000)">
+                    <path d="M21.5,0.5 L21.5,21.5 L7.20710678,21.5 L0.5,14.7928932 L0.5,0.5 L21.5,0.5 Z" id="矩形" stroke="url(#linearGradient-2)" fill-opacity="0.498442963" fill="#86CFFF"></path>
+                    <g transform="translate(7.500000, 6.000000)" fill="#FFFFFF" id="矩形">
+                        <path d="M4,-0.919003695 C4.40750361,-0.919003695 4.73785055,-0.58865675 4.73785055,-0.181153141 L4.73785055,8.18115314 C4.73785055,8.58865675 4.40750361,8.9190037 4,8.9190037 C3.59249639,8.9190037 3.26214945,8.58865675 3.26214945,8.18115314 L3.26214945,-0.181153141 C3.26214945,-0.58865675 3.59249639,-0.919003695 4,-0.919003695 Z" transform="translate(4.000000, 4.000000) rotate(-315.000000) translate(-4.000000, -4.000000) "></path>
+                        <path d="M4,-0.919003695 C4.40750361,-0.919003695 4.73785055,-0.58865675 4.73785055,-0.181153141 L4.73785055,8.18115314 C4.73785055,8.58865675 4.40750361,8.9190037 4,8.9190037 C3.59249639,8.9190037 3.26214945,8.58865675 3.26214945,8.18115314 L3.26214945,-0.181153141 C3.26214945,-0.58865675 3.59249639,-0.919003695 4,-0.919003695 Z" transform="translate(4.000000, 4.000000) rotate(-225.000000) translate(-4.000000, -4.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,60 @@
+.home-page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  ::selection {
+    background: transparent;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('@/assets/images/home-mask.png') no-repeat;
+    background-size: 100% 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .drawer-btn {
+    position: absolute;
+    top: 0.8rem;
+    left: 0.23rem;
+    width: 2.14rem;
+    height: 0.82rem;
+    cursor: pointer;
+    user-select: none;
+
+    font-size: 0.22rem;
+    font-family: YouSheBiaoTiHei;
+    color: #ffffff;
+    line-height: 0.81rem;
+    text-align: right;
+    padding-right: 0.37rem;
+    transition: all 0.3s;
+    z-index: 5;
+  }
+  .drawer-btn-advanced {
+    background: url('@/assets/images/drawer-advanced-bg.png') no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.3s;
+  }
+  .drawer-btn-expand {
+    background: url('@/assets/images/drawer-expand-bg.png') no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.3s;
+  }
+
+  .drawer-container {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: absolute;
+    padding: 0.48rem;
+    text-align: center;
+    z-index: 4;
+  }
+}
